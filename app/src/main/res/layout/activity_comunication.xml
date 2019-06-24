@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00BCD4"
+    tools:context=".comunication">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:text="Conversation"
+        android:background="@drawable/handshake"
+       android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#7B238A"
+        android:textStyle="bold"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+       android:hint="en/bn"
+        android:layout_marginBottom="20dp"
+        />
+    <ImageView
+        android:paddingTop="5dp"
+        android:id="@+id/mic"
+        android:background="#9C27B0"
+        android:layout_gravity="right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/mic"/>
+<TextView
+    android:id="@+id/textview"
+    android:layout_width="match_parent"
+    android:hint="press Mic"
+    android:textColorHint="#CABBBB"
+    android:layout_height="100dp"
+    android:textColor="#00BCD4"
+    android:textSize="20dp"
+    android:background="#E9E1E1"
+    android:paddingBottom="25dp"/>
+
+    <ImageView
+        android:paddingTop="10dp"
+        android:id="@+id/speek"
+        android:layout_marginTop="10dp"
+        android:background="#C0461E"
+        android:layout_gravity="right"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/speek"/>
+    <EditText
+        android:id="@+id/edittext2"
+
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="#E9F0E9"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAlignment="textStart"
+        android:hint="Type something"
+        android:textColorHint="#796E6E"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+</LinearLayout>

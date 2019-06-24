@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00BCD4"
+    tools:context=".Transport">
+    <TextView
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:text="Transport"
+        android:background="@drawable/transport"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#F3ECE9"
+        android:textStyle="bold"
+        />
+    <ImageButton
+        android:id="@+id/image_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/speka"
+        android:scaleType="fitXY"
+        android:background="#03A9F4"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="#EEEEE4"
+        android:textColor="#f000"
+        android:hint="Type Text"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="398dp"
+        android:layout_height="50dp"
+        android:text="STOP the car"
+        android:textSize="30dp"
+        android:textColor="#F5EEEE"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="398dp"
+        android:layout_height="50dp"
+        android:text="how much taka"
+        android:textSize="30dp"
+        android:textColor="#F5EEEE"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="398dp"
+        android:layout_height="50dp"
+        android:text="can I one site"
+        android:textSize="30dp"
+        android:textColor="#F5EEEE"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="398dp"
+        android:layout_height="50dp"
+        android:text="Stop i don't go"
+        android:textSize="30dp"
+        android:textColor="#F5EEEE"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="398dp"
+        android:layout_height="50dp"
+        android:text="Thanks a lot."
+        android:textSize="30dp"
+        android:textColor="#F5EEEE"
+        android:gravity="center"/>
+
+
+</LinearLayout>

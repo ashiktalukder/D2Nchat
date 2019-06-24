@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:paddingTop="40dp"
+        android:layout_width="395dp"
+        android:layout_height="100dp"
+        android:text="Create a new Account"
+        android:textAlignment="center"
+        android:textSize="30dp"
+     android:paddingBottom="20dp"
+        />
+
+   <EditText
+       android:id="@+id/username"
+       android:layout_marginTop="20dp"
+       android:layout_width="385dp"
+       android:layout_height="50dp"
+       android:hint="User_name"
+       android:textSize="20dp"
+
+       android:textColor="#030303"
+       android:background="#E9D7D7"
+       android:layout_marginLeft="10dp"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="20dp"
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:hint="User_email"
+        android:textColor="#030303"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:background="#E9D7D7"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textColor="#030303"
+        android:background="#E9D7D7"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:background="#3F51B5"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
